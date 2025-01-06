@@ -105,4 +105,8 @@
 /* 4. fixed - ( фиксированное позиционирование ) относительно окна, не двигается                    */
 /* 5. sticy - ( прилипание ) при скролле двигается и стоит на месте                                 */
 
-/*  */
+/* 1. static - не двигается                                                                         */
+/* 2. relative - (top, right, bottom, left)                                                         */
+/* 3. absolute - (top, right, bottom, left)                                                         */  
+/* 4. fixed - не двигается                                                                          */
+/* 5. sticky - (top, right, bottom, left)                                                           */
