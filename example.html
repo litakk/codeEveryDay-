@@ -1,51 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-a {
-    color: red;
-}
-    </style>
+    <title>Пример семантического HTML</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-        
-        <main>
-            <h1>Main Content</h1>
-            <img src="" alt="">
-            <h4>Subheading</h4>
-        </main>
-        
-        <aside>
-            <section>
-                <article>
-                    <h2>Article 1</h2>
-                    <p>Content of the first article...</p>
-                </article>
-                <article>
-                    <h2>Article 2</h2>
-                    <p>Content of the second article...</p>
-                </article>
-                <article>
-                    <h2>Article 3</h2>
-                    <p>Content of the third article...</p>
-                </article>
-            </section>
-        </aside>
-        
-        <footer>
-            <p>All rights reserved.</p>
-        </footer>
-    </div>
+    <!-- Шапка сайта -->
+    <header>
+        <h1>Добро пожаловать на наш сайт</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Описание компании -->
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы предоставляем качественные услуги в различных сферах.</p>
+        </section>
+
+        <!-- Услуги компании -->
+        <section id="services">
+            <h2>Наши услуги</h2>
+            <ul>
+                <li>Консультации</li>
+                <li>Разработка программного обеспечения</li>
+                <li>Обучение сотрудников</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; 2025 Все права защищены.</p>
+        <address>
+            Контактный email: <a href="mailto:info@example.com">info@example.com</a>
+        </address>
+    </footer>
 </body>
 </html>
